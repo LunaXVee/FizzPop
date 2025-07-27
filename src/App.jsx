@@ -1,13 +1,8 @@
+import FizzPopLanding from './components/FizzPopLanding'
+import './App.css'
 
-
-const App = () => {
-  const [count, setCount] = useState(0)
-
-  return (
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  )
+function App() {
+  return <FizzPopLanding />
 }
 
 export default App
