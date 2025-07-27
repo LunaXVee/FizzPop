@@ -25,3 +25,13 @@
 .spline-transparent {
   background: transparent !important;
 }
+
+.spline-mobile {
+  transform: scale(0.8);
+}
+
+@media (min-width: 768px) {
+  .spline-mobile {
+    transform: scale(1.2);
+  }
+}

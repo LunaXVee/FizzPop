@@ -72,14 +72,14 @@ const FizzPopLanding = () => {
             <img src="/banner.png" alt="Zimbabwe's Favourite Soda" className="absolute -bottom-16 md:-bottom-35 -right-12 md:-right-26 w-32 md:w-75 transform z-15" />
             
             {/* Spline 3D Can */}
-            <div className="w-[280px] h-[280px] md:w-[450px] md:h-[450px] overflow-visible">
+            <div className="w-[450px] h-[450px] md:w-[450px] md:h-[450px] overflow-visible">
               <Spline 
                 scene="https://prod.spline.design/m17FLQMCvSnG9wzh/scene.splinecode" 
+                className="spline-mobile"
                 style={{ 
                   width: '100%', 
                   height: '100%',
                   background: 'transparent',
-                  transform: 'scale(1.2)'
                 }}
               />
             </div>
