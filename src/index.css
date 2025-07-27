@@ -1,7 +1,27 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
 
 @theme {
   --color-primary: #6366f1;
   --color-secondary: #ec4899;
   --font-sans: "Inter", sans-serif;
+  --color-purple-800: #6b21a8;
+  --color-purple-600: #9333ea;
+  --color-purple-400: #c084fc;
+  --color-yellow-300: #fde047;
+  --color-yellow-400: #facc15;
+  --color-orange-600: #ea580c;
+  --color-teal-400: #2dd4bf;
+  --color-teal-500: #14b8a6;
+  /* Make Spline background transparent */
+
+}
+
+.spline-transparent canvas {
+  background: transparent !important;
+}
+
+.spline-transparent {
+  background: transparent !important;
 }
