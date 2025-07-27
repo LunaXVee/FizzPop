@@ -40,7 +40,7 @@ const FizzPopLanding = () => {
       {/* Main Content */}
       <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-4 md:py-0 max-w-7xl mx-auto min-h-[70vh] md:min-h-[80vh] md:pl-5">
         {/* Left Content */}
-        <div className="flex-1 max-w-2xl text-center md:text-left mb-8 md:mb-0">
+        <div className="flex-1 max-w-2xl text-center md:text-left mb-0 md:mb-0">
           <div className="mb-6 md:mb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
             <p className="text-base md:text-xl font-semibold -mb-2 md:-mb-4 tracking-widest" style={{ color: '#251296' }}>MONSTROUSLY</p>
             <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-tight tracking-wider" style={{ color: '#251296' }}>
@@ -72,7 +72,7 @@ const FizzPopLanding = () => {
             <img src="/banner.png" alt="Zimbabwe's Favourite Soda" className="absolute -bottom-16 md:-bottom-35 -right-12 md:-right-26 w-32 md:w-75 transform z-15" />
             
             {/* Spline 3D Can */}
-            <div className="w-[450px] h-[450px] md:w-[450px] md:h-[450px] overflow-visible">
+            <div className="w-[450px] h-[px] md:w-[450px] md:h-[450px] overflow-visible">
               <Spline 
                 scene="https://prod.spline.design/m17FLQMCvSnG9wzh/scene.splinecode" 
                 className="spline-mobile"
